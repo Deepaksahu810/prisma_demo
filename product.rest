@@ -1,0 +1,73 @@
+GET http://localhost:4000/getAllProduct
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6ImRlZXBhayIsImxhc3ROYW1lIjoic2FodSIsImNyZWF0YXQiOiIyMDIxLTA5LTEwVDExOjA4OjM3LjY5NFoiLCJyb2xlIjoxLCJpYXQiOjE2MzEzNDAxNjUsImV4cCI6MTYzMTM0NzM2NX0.edS6B_yZ9dXTGPa7Hwqj-P2Fb7Qid5w_Q2mKaK8csJ8
+
+
+
+##############################
+POST http://localhost:4000/addemployee
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6ImRlZXBhayIsImxhc3ROYW1lIjoic2FodSIsImNyZWF0YXQiOiIyMDIxLTA5LTEwVDExOjA4OjM3LjY5NFoiLCJyb2xlIjoxLCJpYXQiOjE2MzEzNDAxNjUsImV4cCI6MTYzMTM0NzM2NX0.edS6B_yZ9dXTGPa7Hwqj-P2Fb7Qid5w_Q2mKaK8csJ8
+Content-Type: application/json
+
+{
+    "name":"deepu",
+    "lastName":"sahu",
+    "Role":"2"
+}
+
+########################
+GET http://localhost:4000/getAllemployee
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwibmFtZSI6ImRlZXBhayIsImxhc3ROYW1lIjoic2FodSIsImNyZWF0YXQiOiIyMDIxLTA5LTEwVDExOjA4OjM3LjY5NFoiLCJyb2xlIjoxLCJpYXQiOjE2MzEzNDAxNjUsImV4cCI6MTYzMTM0NzM2NX0.edS6B_yZ9dXTGPa7Hwqj-P2Fb7Qid5w_Q2mKaK8csJ8
+
+
+
+
+
+
+
+
+
+
+
+#######################
+POST http://localhost:4000/addProduct
+Content-Type: application/json
+
+{
+    "name":"puma",
+    "CategoryID":"2"
+}
+
+#######################
+POST http://localhost:4000/addProduct
+Content-Type: application/json
+
+{
+    "name":"puma",
+    "CategoryID":"2"
+}
+
+
+#######################
+PUT http://localhost:4000/updateProduct
+Content-Type: application/json
+
+{
+    "id":"1",
+    "name":"adidas"
+}
+
+
+#######################
+DELETE http://localhost:4000/daleteProduct
+Content-Type: application/json
+
+{
+    "id":"1"
+}
+
+
+
+#######################
+GET http://localhost:4000/getAllProduct/3
+Content-Type: application/json
+

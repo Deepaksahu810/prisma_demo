@@ -1,0 +1,33 @@
+GET http://localhost:4000/getAll
+
+
+##############################
+GET http://localhost:4000/api/getAll/2
+
+
+##############################
+POST http://localhost:4000/api/register
+Content-Type: application/json
+
+{
+    "name":"deepak",
+    "lastName":"sahu"
+}
+
+##############################
+PUT http://localhost:4000/api/updateUser
+Content-Type: application/json
+
+{
+    "name":"deepak",
+    "lastName":"lal"
+}
+
+##############################
+DELETE http://localhost:4000/api/daleteUser
+Content-Type: application/json
+
+{
+    "name":"deepak"
+}
+

@@ -1,0 +1,23 @@
+GET http://localhost:4000/getAllcart
+
+
+
+#######################
+POST http://localhost:4000/addcart
+Content-Type: application/json
+
+{
+    "UserID":"2",
+    "ProductID":"2"
+}
+
+
+#######################
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "name":"deepak",
+    "lastName":"sahu"
+}
+
